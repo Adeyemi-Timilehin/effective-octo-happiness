@@ -21,9 +21,13 @@ This is a very simple, bare-bones NodeJS project created for you to use with Doc
 
 
 
-eksctl create cluster --name Demo --region us-west-2 --version 1.23 --vpc-private-subnets subnet-0c65dc7c4600eba7d,subnet-0a6c34c3305759e2f
+eksctl create cluster --name Demo --region us-west-2 --version 1.23 --vpc-private-subnets subnet-0c65dc7c4600eba7d,subnet-0a6c34c3305759e2f,subnet-094a9d4e7246216a9,subnet-087b3503aa2e92922 --without-nodegroup
 
-subnet-094a9d4e7246216a9,subnet-087b3503aa2e92922 --without-nodegroup
+
+
+
+
+
 
 https://docs.aws.amazon.com/index.html
 
